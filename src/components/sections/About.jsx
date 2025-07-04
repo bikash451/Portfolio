@@ -34,7 +34,6 @@ export const About = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {/* Frontend Skills */}
                     <div className="rounded-xl p-6 hover:-translate-y-1 transition-all border border-white/10 hover:shadow-[0_5px_20px_rgba(59,130,246,0.3)]">
                         <h3 className="text-xl font-bold mb-4">Frontend</h3>
                         <div className="flex flex-wrap gap-2">
@@ -51,7 +50,6 @@ export const About = () => {
                         </div>
                     </div>
 
-                    {/* Backend Skills */}
                     <div className="rounded-xl p-6 hover:-translate-y-1 transition-all border border-white/10 hover:shadow-[0_5px_20px_rgba(59,130,246,0.3)]">
                         <h3 className="text-xl font-bold mb-4">Backend</h3>
                         <div className="flex flex-wrap gap-2">
@@ -74,11 +72,16 @@ export const About = () => {
     <h3 className="text-xl font-bold mb-4">🎓 Education</h3>
     <ul className="list-disc list-inside text-gray-300 space-y-2">
       <li>
-        <strong>B.Tech Computer Science and Engineering</strong> - Thapar Institute of Engineering and Technology (2022-2026)
+        <strong>B.Tech Computer Science and Engineering</strong> - Thapar Institute of Engineering and Technology (2022-2026)<p> Patiala,Punjab</p> 
+      </li>
+            <li>
+        <strong>Higher Secondary Education</strong> - Capital College and Research Center (2019-1022) <p>Kathmandu, Nepal</p>
       </li>
     </ul>
   </div>
 </div>
+
+
             </div>
             </RevealOnScroll>
         </section>

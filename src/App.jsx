@@ -7,6 +7,7 @@ import "./index.css";
 import { About } from './components/sections/About';
 import { Projects } from './components/sections/Projects';
 import { Contact } from './components/sections/Contact';
+import Footer from './components/footer';
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -20,15 +21,14 @@ function App() {
         </div>
       )}
       
-      <div className={`min-h-screen bg-black text-gray-100 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
+      <div className={`min-h-screen bg-[#1e1e1e] text-gray-100 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
         <Projects />
         <Contact />
-
-        {/* Your other content would go here */}
+        <Footer />
       </div>
     </>
   );
