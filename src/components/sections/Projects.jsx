@@ -20,7 +20,7 @@ export const Projects = () => {
         as bot detection and rate-limiting. 
     </p>
     <div className="flex flex-wrap gap-2 mb-4">
-      {["React", "Node.js", "express.js", "Postgresql","Tailwind CSS"].map((tech, index) => (
+      {["React.js", "Node.js", "express.js", "Postgresql","Tailwind CSS"].map((tech, index) => (
         <span 
           key={index}
           className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:shadow-[0_5px_10px_rgba(59,130,246,0.4)]"
@@ -48,7 +48,7 @@ export const Projects = () => {
       Chrome extension that extracts email addresses from webpage
     </p>
     <div className="flex flex-wrap gap-2 mb-4">
-      {["React", "Node.js", "AWS", "Docker"].map((tech, index) => (
+      {["HTML", "CSS", "JavaScript"].map((tech, index) => (
         <span 
           key={index}
           className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:shadow-[0_5px_10px_rgba(59,130,246,0.4)]"
@@ -72,7 +72,7 @@ export const Projects = () => {
     <p className="text-gray-400 mb-4">
 PocketMoney is a modern personal finance tracking application that helps users manage and keep track of their daily financial activity    </p>
     <div className="flex flex-wrap gap-2 mb-4">
-      {["React", "Node.js", "AWS", "Docker"].map((tech, index) => (
+      {["React.js", "Node.js", "express.js", "Postgresql","Tailwind CSS"].map((tech, index) => (
         <span 
           key={index}
           className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:shadow-[0_5px_10px_rgba(59,130,246,0.4)]"
